@@ -1,0 +1,57 @@
+/*
+slider-container height must be equal to 100 more than 
+100 * the amount of elements of coreValuesText in Section Component
+*/
+.slider-container {
+  height: 500vh;
+}
+
+#header-bar {
+  height: 5em;
+  width: 100vw;
+  background-color: #FFFFFF;
+  color: #677B8C;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#header-bar img {
+  max-width: 9em;
+  min-height: 0.75em;
+  display: block;
+  margin-left: 1.5em;
+}
+
+.grey-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F5F6F6;
+}
+
+@media screen and (max-width: 26em) {
+  #header-bar {
+    height: 3em;
+    width: 100vw;
+    background-color: #FFFFFF;
+    color: #677B8C;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #header-bar img {
+    max-width: 5em;
+    min-height: 0.75em;
+    display: block;
+    margin-left: 0.75em;
+  }
+}
